@@ -1,0 +1,51 @@
+.servicio{
+    border: 1px solid gray;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+}
+
+.servicio .info{
+    width: 75%;
+}
+
+.servicio .info h4{
+    color:#253439;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #253439;
+    padding-bottom: 0.5em;
+}
+
+.servicio .info p{
+    width: 600px;
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #7c898b;
+}
+
+.servicio img{
+    width: 20%;
+    border-radius: 0.8em;
+}
+
+.servicio:nth-child(even) img{
+    float: right;
+    margin: 0 0 0 1em;
+}
+
+.servicio:nth-child(even) .info{
+    float: left;
+}
+
+.servicio:nth-child(odd) img{
+    float: left;
+    margin: 0 1em 0 0;
+}
+
+.servicio:nth-child(odd) .info{
+    float: right;
+}

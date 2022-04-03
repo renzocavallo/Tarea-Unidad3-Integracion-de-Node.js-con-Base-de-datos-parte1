@@ -1,0 +1,76 @@
+.columna{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 0 0.6em;
+}
+
+.columna.left{
+    border-right: 1px solid #253439;
+    font-size: small;
+}
+
+.columna.right ul li{
+    color: #7c898b;
+}
+
+.columna.right p{
+    color: #7c898b;
+}
+
+.columna.right p{
+     font-size: 0.8em;
+}
+
+.columna.right ul li{
+    font-size: 0.8em;
+}
+
+.formulario label{
+    vertical-align: top;
+    width: 20%;
+    display: inline-block;
+}
+
+.formulario input,
+.formulario textarea{
+    border-radius: 5px;
+    border: 1px solid #253439;
+    padding: 0.4em 0.6em;
+    font-size: 0.8em;
+    width: 70%;
+}
+
+.formulario input[type="submit"]{
+    background-color: #253439;
+    box-shadow: 0 0 10px rgab(0,0,0,0.4);
+    color: white;
+    font-size: 1em;
+    width: auto;
+    cursor: pointer;
+}
+
+.formulario textarea{
+    height: 10em;
+    resize: none;
+}
+
+.formulario .acciones{
+    position: relative;
+    text-align: center;
+}
+
+.icono{
+    font-size: 35px;
+    color:#253439;
+}
+
+#whatsapp{
+    position: relative;
+    left: 30px;
+}
+
+#telegram{
+    position: relative;
+    left: 80px;
+    top: -33px;
+}

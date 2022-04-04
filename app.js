@@ -29,7 +29,11 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/',function(req,res){
-res.render('home')})
+res.render('home',
+{ title: 'Chalten Destinos',
+  isHome:true
+});
+});
 
 app.use('/home', homeRouter);
 app.use('/nosotros',nosotrosRouter);

@@ -57,6 +57,10 @@ nav ul li:active{
   background-color:  #253439;
 }
 
+.activo{
+  background-color: #253439;
+}
+
 footer{
   background-color: #7c898b;
   clear: both;
